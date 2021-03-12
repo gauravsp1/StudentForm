@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router"
 import StudentDetails from "./StudentDetails";
 import StudentForm from "./StudentForm";
 import { useState } from 'react';
+import { HashRouter as Router } from 'react-router-dom'
 
 
 function App() {
@@ -45,11 +46,12 @@ function App() {
   return (
     <>
       <NavBar />
+      <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={() => <StudentForm handleSubmit={handleSubmit} />} />
         <Route exact path="/StudentDetails" component={() => <StudentDetails detail={list} onDelete={onDelete} />} />
       </Switch>
-
+      </Router>
 
     </>
   );

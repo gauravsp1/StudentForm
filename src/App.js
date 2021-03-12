@@ -48,7 +48,7 @@ function App() {
       <NavBar />
       <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route exact path="/StudentForm" component={() => <StudentForm handleSubmit={handleSubmit} />} />
+        <Route exact path="/" component={() => <StudentForm handleSubmit={handleSubmit} />} />
         <Route exact path="/StudentDetails" component={() => <StudentDetails detail={list} onDelete={onDelete} />} />
       </Switch>
       </Router>

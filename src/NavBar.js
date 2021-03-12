@@ -60,7 +60,7 @@ function NavBar() {
             <AppBar>
             <Toolbar className="nav-container">
             
-              <BootstrapButton variant="contained" color="inherit" component={Link} to="/StudentForm" disableRipple className={classes.margin}>
+              <BootstrapButton variant="contained" color="inherit" component={Link} to="/" disableRipple className={classes.margin}>
               Student Form
       </BootstrapButton>
               <BootstrapButton variant="contained" color="inherit" component={Link} to="/StudentDetails" disableRipple className={classes.margin}>

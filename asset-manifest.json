@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/StudentForm/static/js/main.53afc0e3.chunk.js",
-    "main.js.map": "/StudentForm/static/js/main.53afc0e3.chunk.js.map",
+    "main.js": "/StudentForm/static/js/main.d21c1441.chunk.js",
+    "main.js.map": "/StudentForm/static/js/main.d21c1441.chunk.js.map",
     "runtime-main.js": "/StudentForm/static/js/runtime-main.59837299.js",
     "runtime-main.js.map": "/StudentForm/static/js/runtime-main.59837299.js.map",
     "static/js/2.cdf04730.chunk.js": "/StudentForm/static/js/2.cdf04730.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.59837299.js",
     "static/js/2.cdf04730.chunk.js",
-    "static/js/main.53afc0e3.chunk.js"
+    "static/js/main.d21c1441.chunk.js"
   ]
 }

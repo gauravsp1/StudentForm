@@ -1,7 +1,7 @@
-import NavBar from "./NavBar";
+import NavBar from "./Components/NavBar";
 import { Route, Switch } from "react-router"
-import StudentDetails from "./StudentDetails";
-import StudentForm from "./StudentForm";
+import StudentDetails from "./Components/StudentDetails";
+import StudentForm from "./Components/StudentForm";
 import { useState } from 'react';
 
 
